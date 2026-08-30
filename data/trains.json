@@ -1,0 +1,3269 @@
+{
+  "12007": {
+    "name": "MAS-MYS Shatabdi",
+    "type": "Superfast",
+    "stations": [
+      {
+        "code": "MAS",
+        "name": "Chennai Central",
+        "seq": 1,
+        "km": 0,
+        "sched_arr": null,
+        "sched_dep": "06:00",
+        "halt_min": 0
+      },
+      {
+        "code": "AJJ",
+        "name": "Arakkonam Jn",
+        "seq": 2,
+        "km": 69,
+        "sched_arr": "07:02",
+        "sched_dep": "07:05",
+        "halt_min": 3
+      },
+      {
+        "code": "KPD",
+        "name": "Katpadi Jn",
+        "seq": 3,
+        "km": 129,
+        "sched_arr": "07:59",
+        "sched_dep": "08:04",
+        "halt_min": 5
+      },
+      {
+        "code": "JTJ",
+        "name": "Jolarpettai Jn",
+        "seq": 4,
+        "km": 215,
+        "sched_arr": "09:22",
+        "sched_dep": "09:25",
+        "halt_min": 3
+      },
+      {
+        "code": "SA",
+        "name": "Salem Jn",
+        "seq": 5,
+        "km": 335,
+        "sched_arr": "11:14",
+        "sched_dep": "11:17",
+        "halt_min": 3
+      },
+      {
+        "code": "BWT",
+        "name": "Bangarapet",
+        "seq": 6,
+        "km": 290,
+        "sched_arr": "10:37",
+        "sched_dep": "10:38",
+        "halt_min": 1
+      },
+      {
+        "code": "KJM",
+        "name": "Krishnarajapuram",
+        "seq": 7,
+        "km": 345,
+        "sched_arr": "11:28",
+        "sched_dep": "11:33",
+        "halt_min": 5
+      },
+      {
+        "code": "SBC",
+        "name": "KSR Bengaluru",
+        "seq": 8,
+        "km": 362,
+        "sched_arr": "11:48",
+        "sched_dep": null,
+        "halt_min": 0
+      }
+    ]
+  },
+  "12009": {
+    "name": "Ahmedabad Shatabdi",
+    "type": "Superfast",
+    "stations": [
+      {
+        "code": "CSMT",
+        "name": "Mumbai CSMT",
+        "seq": 1,
+        "km": 0,
+        "sched_arr": null,
+        "sched_dep": "06:25",
+        "halt_min": 0
+      },
+      {
+        "code": "BVI",
+        "name": "Borivali",
+        "seq": 2,
+        "km": 34,
+        "sched_arr": "06:56",
+        "sched_dep": "06:57",
+        "halt_min": 1
+      },
+      {
+        "code": "BSR",
+        "name": "Vasai Road",
+        "seq": 3,
+        "km": 60,
+        "sched_arr": "07:20",
+        "sched_dep": "07:21",
+        "halt_min": 1
+      },
+      {
+        "code": "ST",
+        "name": "Surat",
+        "seq": 4,
+        "km": 263,
+        "sched_arr": "10:28",
+        "sched_dep": "10:30",
+        "halt_min": 2
+      },
+      {
+        "code": "BH",
+        "name": "Bharuch Jn",
+        "seq": 5,
+        "km": 322,
+        "sched_arr": "11:23",
+        "sched_dep": "11:25",
+        "halt_min": 2
+      },
+      {
+        "code": "BRC",
+        "name": "Vadodara Jn",
+        "seq": 6,
+        "km": 392,
+        "sched_arr": "12:28",
+        "sched_dep": "12:33",
+        "halt_min": 5
+      },
+      {
+        "code": "AND",
+        "name": "Anand Jn",
+        "seq": 7,
+        "km": 436,
+        "sched_arr": "13:13",
+        "sched_dep": "13:15",
+        "halt_min": 2
+      },
+      {
+        "code": "ND",
+        "name": "Nadiad Jn",
+        "seq": 8,
+        "km": 454,
+        "sched_arr": "13:31",
+        "sched_dep": "13:36",
+        "halt_min": 5
+      },
+      {
+        "code": "ADI",
+        "name": "Ahmedabad Jn",
+        "seq": 9,
+        "km": 491,
+        "sched_arr": "14:09",
+        "sched_dep": null,
+        "halt_min": 0
+      }
+    ]
+  },
+  "12029": {
+    "name": "Swarna Shatabdi",
+    "type": "Superfast",
+    "stations": [
+      {
+        "code": "NDLS",
+        "name": "New Delhi",
+        "seq": 1,
+        "km": 0,
+        "sched_arr": null,
+        "sched_dep": "07:20",
+        "halt_min": 0
+      },
+      {
+        "code": "PNP",
+        "name": "Panipat Jn",
+        "seq": 2,
+        "km": 90,
+        "sched_arr": "08:42",
+        "sched_dep": "08:43",
+        "halt_min": 1
+      },
+      {
+        "code": "KUN",
+        "name": "Karnal",
+        "seq": 3,
+        "km": 125,
+        "sched_arr": "09:15",
+        "sched_dep": "09:16",
+        "halt_min": 1
+      },
+      {
+        "code": "UMB",
+        "name": "Ambala Cantt",
+        "seq": 4,
+        "km": 198,
+        "sched_arr": "10:22",
+        "sched_dep": "10:23",
+        "halt_min": 1
+      },
+      {
+        "code": "LDH",
+        "name": "Ludhiana Jn",
+        "seq": 5,
+        "km": 313,
+        "sched_arr": "12:08",
+        "sched_dep": "12:13",
+        "halt_min": 5
+      },
+      {
+        "code": "JRC",
+        "name": "Jalandhar City",
+        "seq": 6,
+        "km": 372,
+        "sched_arr": "13:06",
+        "sched_dep": "13:08",
+        "halt_min": 2
+      },
+      {
+        "code": "BEAS",
+        "name": "Beas",
+        "seq": 7,
+        "km": 422,
+        "sched_arr": "13:53",
+        "sched_dep": "13:55",
+        "halt_min": 2
+      },
+      {
+        "code": "ASR",
+        "name": "Amritsar Jn",
+        "seq": 8,
+        "km": 448,
+        "sched_arr": "14:18",
+        "sched_dep": null,
+        "halt_min": 0
+      }
+    ]
+  },
+  "12105": {
+    "name": "Vidarbha Express",
+    "type": "Superfast",
+    "stations": [
+      {
+        "code": "CSMT",
+        "name": "Mumbai CSMT",
+        "seq": 1,
+        "km": 0,
+        "sched_arr": null,
+        "sched_dep": "19:05",
+        "halt_min": 0
+      },
+      {
+        "code": "KYN",
+        "name": "Kalyan Jn",
+        "seq": 2,
+        "km": 54,
+        "sched_arr": "19:54",
+        "sched_dep": "19:57",
+        "halt_min": 3
+      },
+      {
+        "code": "IGP",
+        "name": "Igatpuri",
+        "seq": 3,
+        "km": 137,
+        "sched_arr": "21:12",
+        "sched_dep": "21:14",
+        "halt_min": 2
+      },
+      {
+        "code": "NK",
+        "name": "Nashik Road",
+        "seq": 4,
+        "km": 187,
+        "sched_arr": "21:59",
+        "sched_dep": "22:04",
+        "halt_min": 5
+      },
+      {
+        "code": "MMR",
+        "name": "Manmad Jn",
+        "seq": 5,
+        "km": 260,
+        "sched_arr": "23:10",
+        "sched_dep": "23:11",
+        "halt_min": 1
+      },
+      {
+        "code": "BSL",
+        "name": "Bhusaval Jn",
+        "seq": 6,
+        "km": 420,
+        "sched_arr": "01:38",
+        "sched_dep": "01:43",
+        "halt_min": 5
+      },
+      {
+        "code": "AK",
+        "name": "Akola Jn",
+        "seq": 7,
+        "km": 540,
+        "sched_arr": "03:32",
+        "sched_dep": "03:33",
+        "halt_min": 1
+      },
+      {
+        "code": "BD",
+        "name": "Badnera Jn",
+        "seq": 8,
+        "km": 630,
+        "sched_arr": "04:55",
+        "sched_dep": "04:58",
+        "halt_min": 3
+      },
+      {
+        "code": "WR",
+        "name": "Wardha Jn",
+        "seq": 9,
+        "km": 710,
+        "sched_arr": "06:11",
+        "sched_dep": "06:13",
+        "halt_min": 2
+      },
+      {
+        "code": "NGP",
+        "name": "Nagpur Jn",
+        "seq": 10,
+        "km": 785,
+        "sched_arr": "07:21",
+        "sched_dep": null,
+        "halt_min": 0
+      }
+    ]
+  },
+  "12259": {
+    "name": "Sealdah Duronto",
+    "type": "Rajdhani",
+    "stations": [
+      {
+        "code": "NDLS",
+        "name": "New Delhi",
+        "seq": 1,
+        "km": 0,
+        "sched_arr": null,
+        "sched_dep": "20:10",
+        "halt_min": 0
+      },
+      {
+        "code": "CNB",
+        "name": "Kanpur Central",
+        "seq": 2,
+        "km": 441,
+        "sched_arr": "02:01",
+        "sched_dep": "02:06",
+        "halt_min": 5
+      },
+      {
+        "code": "PRYJ",
+        "name": "Prayagraj Jn",
+        "seq": 3,
+        "km": 627,
+        "sched_arr": "04:29",
+        "sched_dep": "04:31",
+        "halt_min": 2
+      },
+      {
+        "code": "MGS",
+        "name": "Mughal Sarai",
+        "seq": 4,
+        "km": 780,
+        "sched_arr": "06:28",
+        "sched_dep": "06:30",
+        "halt_min": 2
+      },
+      {
+        "code": "GAYA",
+        "name": "Gaya Jn",
+        "seq": 5,
+        "km": 985,
+        "sched_arr": "09:08",
+        "sched_dep": "09:13",
+        "halt_min": 5
+      },
+      {
+        "code": "DHN",
+        "name": "Dhanbad Jn",
+        "seq": 6,
+        "km": 1100,
+        "sched_arr": "10:40",
+        "sched_dep": "10:45",
+        "halt_min": 5
+      },
+      {
+        "code": "ASN",
+        "name": "Asansol Jn",
+        "seq": 7,
+        "km": 1200,
+        "sched_arr": "12:01",
+        "sched_dep": "12:03",
+        "halt_min": 2
+      },
+      {
+        "code": "DGR",
+        "name": "Durgapur",
+        "seq": 8,
+        "km": 1240,
+        "sched_arr": "12:33",
+        "sched_dep": "12:36",
+        "halt_min": 3
+      },
+      {
+        "code": "BWN",
+        "name": "Barddhaman Jn",
+        "seq": 9,
+        "km": 1320,
+        "sched_arr": "13:36",
+        "sched_dep": null,
+        "halt_min": 0
+      }
+    ]
+  },
+  "12277": {
+    "name": "Puri Shatabdi",
+    "type": "Superfast",
+    "stations": [
+      {
+        "code": "HWH",
+        "name": "Howrah Jn",
+        "seq": 1,
+        "km": 0,
+        "sched_arr": null,
+        "sched_dep": "14:00",
+        "halt_min": 0
+      },
+      {
+        "code": "KGP",
+        "name": "Kharagpur Jn",
+        "seq": 2,
+        "km": 116,
+        "sched_arr": "15:46",
+        "sched_dep": "15:51",
+        "halt_min": 5
+      },
+      {
+        "code": "BLS",
+        "name": "Balasore",
+        "seq": 3,
+        "km": 242,
+        "sched_arr": "17:46",
+        "sched_dep": "17:47",
+        "halt_min": 1
+      },
+      {
+        "code": "BHC",
+        "name": "Bhadrak",
+        "seq": 4,
+        "km": 312,
+        "sched_arr": "18:50",
+        "sched_dep": "18:55",
+        "halt_min": 5
+      },
+      {
+        "code": "CTC",
+        "name": "Cuttack",
+        "seq": 5,
+        "km": 437,
+        "sched_arr": "20:49",
+        "sched_dep": "20:51",
+        "halt_min": 2
+      },
+      {
+        "code": "BBS",
+        "name": "Bhubaneswar",
+        "seq": 6,
+        "km": 466,
+        "sched_arr": "21:17",
+        "sched_dep": "21:22",
+        "halt_min": 5
+      },
+      {
+        "code": "KUR",
+        "name": "Khurda Road Jn",
+        "seq": 7,
+        "km": 485,
+        "sched_arr": "21:39",
+        "sched_dep": "21:41",
+        "halt_min": 2
+      },
+      {
+        "code": "PURI",
+        "name": "Puri",
+        "seq": 8,
+        "km": 529,
+        "sched_arr": "22:21",
+        "sched_dep": null,
+        "halt_min": 0
+      }
+    ]
+  },
+  "12289": {
+    "name": "Nagpur Duronto",
+    "type": "Rajdhani",
+    "stations": [
+      {
+        "code": "CSMT",
+        "name": "Mumbai CSMT",
+        "seq": 1,
+        "km": 0,
+        "sched_arr": null,
+        "sched_dep": "20:30",
+        "halt_min": 0
+      },
+      {
+        "code": "KYN",
+        "name": "Kalyan Jn",
+        "seq": 2,
+        "km": 54,
+        "sched_arr": "21:11",
+        "sched_dep": "21:14",
+        "halt_min": 3
+      },
+      {
+        "code": "IGP",
+        "name": "Igatpuri",
+        "seq": 3,
+        "km": 137,
+        "sched_arr": "22:17",
+        "sched_dep": "22:19",
+        "halt_min": 2
+      },
+      {
+        "code": "NK",
+        "name": "Nashik Road",
+        "seq": 4,
+        "km": 187,
+        "sched_arr": "22:57",
+        "sched_dep": "22:59",
+        "halt_min": 2
+      },
+      {
+        "code": "MMR",
+        "name": "Manmad Jn",
+        "seq": 5,
+        "km": 260,
+        "sched_arr": "23:54",
+        "sched_dep": "23:59",
+        "halt_min": 5
+      },
+      {
+        "code": "BSL",
+        "name": "Bhusaval Jn",
+        "seq": 6,
+        "km": 420,
+        "sched_arr": "02:01",
+        "sched_dep": "02:04",
+        "halt_min": 3
+      },
+      {
+        "code": "AK",
+        "name": "Akola Jn",
+        "seq": 7,
+        "km": 540,
+        "sched_arr": "03:35",
+        "sched_dep": "03:40",
+        "halt_min": 5
+      },
+      {
+        "code": "BD",
+        "name": "Badnera Jn",
+        "seq": 8,
+        "km": 630,
+        "sched_arr": "04:48",
+        "sched_dep": "04:50",
+        "halt_min": 2
+      },
+      {
+        "code": "WR",
+        "name": "Wardha Jn",
+        "seq": 9,
+        "km": 710,
+        "sched_arr": "05:50",
+        "sched_dep": "05:53",
+        "halt_min": 3
+      },
+      {
+        "code": "NGP",
+        "name": "Nagpur Jn",
+        "seq": 10,
+        "km": 785,
+        "sched_arr": "06:50",
+        "sched_dep": null,
+        "halt_min": 0
+      }
+    ]
+  },
+  "12295": {
+    "name": "Sanghamitra SF",
+    "type": "Superfast",
+    "stations": [
+      {
+        "code": "MAS",
+        "name": "Chennai Central",
+        "seq": 1,
+        "km": 0,
+        "sched_arr": null,
+        "sched_dep": "09:20",
+        "halt_min": 0
+      },
+      {
+        "code": "AJJ",
+        "name": "Arakkonam Jn",
+        "seq": 2,
+        "km": 69,
+        "sched_arr": "10:22",
+        "sched_dep": "10:27",
+        "halt_min": 5
+      },
+      {
+        "code": "KPD",
+        "name": "Katpadi Jn",
+        "seq": 3,
+        "km": 129,
+        "sched_arr": "11:21",
+        "sched_dep": "11:23",
+        "halt_min": 2
+      },
+      {
+        "code": "JTJ",
+        "name": "Jolarpettai Jn",
+        "seq": 4,
+        "km": 215,
+        "sched_arr": "12:41",
+        "sched_dep": "12:43",
+        "halt_min": 2
+      },
+      {
+        "code": "SA",
+        "name": "Salem Jn",
+        "seq": 5,
+        "km": 335,
+        "sched_arr": "14:32",
+        "sched_dep": "14:33",
+        "halt_min": 1
+      },
+      {
+        "code": "BWT",
+        "name": "Bangarapet",
+        "seq": 6,
+        "km": 290,
+        "sched_arr": "13:53",
+        "sched_dep": "13:58",
+        "halt_min": 5
+      },
+      {
+        "code": "KJM",
+        "name": "Krishnarajapuram",
+        "seq": 7,
+        "km": 345,
+        "sched_arr": "14:48",
+        "sched_dep": "14:50",
+        "halt_min": 2
+      },
+      {
+        "code": "SBC",
+        "name": "KSR Bengaluru",
+        "seq": 8,
+        "km": 362,
+        "sched_arr": "15:05",
+        "sched_dep": null,
+        "halt_min": 0
+      }
+    ]
+  },
+  "12301": {
+    "name": "Howrah Rajdhani",
+    "type": "Rajdhani",
+    "stations": [
+      {
+        "code": "NDLS",
+        "name": "New Delhi",
+        "seq": 1,
+        "km": 0,
+        "sched_arr": null,
+        "sched_dep": "16:50",
+        "halt_min": 0
+      },
+      {
+        "code": "CNB",
+        "name": "Kanpur Central",
+        "seq": 2,
+        "km": 441,
+        "sched_arr": "22:41",
+        "sched_dep": "22:44",
+        "halt_min": 3
+      },
+      {
+        "code": "PRYJ",
+        "name": "Prayagraj Jn",
+        "seq": 3,
+        "km": 627,
+        "sched_arr": "01:07",
+        "sched_dep": "01:12",
+        "halt_min": 5
+      },
+      {
+        "code": "MGS",
+        "name": "Mughal Sarai",
+        "seq": 4,
+        "km": 780,
+        "sched_arr": "03:09",
+        "sched_dep": "03:12",
+        "halt_min": 3
+      },
+      {
+        "code": "GAYA",
+        "name": "Gaya Jn",
+        "seq": 5,
+        "km": 985,
+        "sched_arr": "05:50",
+        "sched_dep": "05:55",
+        "halt_min": 5
+      },
+      {
+        "code": "DHN",
+        "name": "Dhanbad Jn",
+        "seq": 6,
+        "km": 1100,
+        "sched_arr": "07:22",
+        "sched_dep": "07:24",
+        "halt_min": 2
+      },
+      {
+        "code": "ASN",
+        "name": "Asansol Jn",
+        "seq": 7,
+        "km": 1200,
+        "sched_arr": "08:40",
+        "sched_dep": "08:43",
+        "halt_min": 3
+      },
+      {
+        "code": "DGR",
+        "name": "Durgapur",
+        "seq": 8,
+        "km": 1240,
+        "sched_arr": "09:13",
+        "sched_dep": "09:15",
+        "halt_min": 2
+      },
+      {
+        "code": "BWN",
+        "name": "Barddhaman Jn",
+        "seq": 9,
+        "km": 1320,
+        "sched_arr": "10:15",
+        "sched_dep": "10:20",
+        "halt_min": 5
+      },
+      {
+        "code": "HWH",
+        "name": "Howrah Jn",
+        "seq": 10,
+        "km": 1447,
+        "sched_arr": "11:57",
+        "sched_dep": null,
+        "halt_min": 0
+      }
+    ]
+  },
+  "12303": {
+    "name": "Poorva Express",
+    "type": "Superfast",
+    "stations": [
+      {
+        "code": "NDLS",
+        "name": "New Delhi",
+        "seq": 1,
+        "km": 0,
+        "sched_arr": null,
+        "sched_dep": "08:05",
+        "halt_min": 0
+      },
+      {
+        "code": "CNB",
+        "name": "Kanpur Central",
+        "seq": 2,
+        "km": 441,
+        "sched_arr": "15:06",
+        "sched_dep": "15:08",
+        "halt_min": 2
+      },
+      {
+        "code": "PRYJ",
+        "name": "Prayagraj Jn",
+        "seq": 3,
+        "km": 627,
+        "sched_arr": "17:59",
+        "sched_dep": "18:04",
+        "halt_min": 5
+      },
+      {
+        "code": "MGS",
+        "name": "Mughal Sarai",
+        "seq": 4,
+        "km": 780,
+        "sched_arr": "20:24",
+        "sched_dep": "20:25",
+        "halt_min": 1
+      },
+      {
+        "code": "GAYA",
+        "name": "Gaya Jn",
+        "seq": 5,
+        "km": 985,
+        "sched_arr": "23:34",
+        "sched_dep": "23:39",
+        "halt_min": 5
+      },
+      {
+        "code": "DHN",
+        "name": "Dhanbad Jn",
+        "seq": 6,
+        "km": 1100,
+        "sched_arr": "01:24",
+        "sched_dep": "01:26",
+        "halt_min": 2
+      },
+      {
+        "code": "ASN",
+        "name": "Asansol Jn",
+        "seq": 7,
+        "km": 1200,
+        "sched_arr": "02:57",
+        "sched_dep": "03:00",
+        "halt_min": 3
+      },
+      {
+        "code": "DGR",
+        "name": "Durgapur",
+        "seq": 8,
+        "km": 1240,
+        "sched_arr": "03:36",
+        "sched_dep": "03:41",
+        "halt_min": 5
+      },
+      {
+        "code": "BWN",
+        "name": "Barddhaman Jn",
+        "seq": 9,
+        "km": 1320,
+        "sched_arr": "04:54",
+        "sched_dep": "04:57",
+        "halt_min": 3
+      },
+      {
+        "code": "HWH",
+        "name": "Howrah Jn",
+        "seq": 10,
+        "km": 1447,
+        "sched_arr": "06:53",
+        "sched_dep": null,
+        "halt_min": 0
+      }
+    ]
+  },
+  "12321": {
+    "name": "Mumbai Mail",
+    "type": "Express",
+    "stations": [
+      {
+        "code": "NDLS",
+        "name": "New Delhi",
+        "seq": 1,
+        "km": 0,
+        "sched_arr": null,
+        "sched_dep": "21:35",
+        "halt_min": 0
+      },
+      {
+        "code": "CNB",
+        "name": "Kanpur Central",
+        "seq": 2,
+        "km": 441,
+        "sched_arr": "06:21",
+        "sched_dep": "06:23",
+        "halt_min": 2
+      },
+      {
+        "code": "PRYJ",
+        "name": "Prayagraj Jn",
+        "seq": 3,
+        "km": 627,
+        "sched_arr": "09:57",
+        "sched_dep": "10:07",
+        "halt_min": 10
+      },
+      {
+        "code": "MGS",
+        "name": "Mughal Sarai",
+        "seq": 4,
+        "km": 780,
+        "sched_arr": "13:02",
+        "sched_dep": "13:03",
+        "halt_min": 1
+      },
+      {
+        "code": "GAYA",
+        "name": "Gaya Jn",
+        "seq": 5,
+        "km": 985,
+        "sched_arr": "17:00",
+        "sched_dep": "17:02",
+        "halt_min": 2
+      },
+      {
+        "code": "DHN",
+        "name": "Dhanbad Jn",
+        "seq": 6,
+        "km": 1100,
+        "sched_arr": "19:13",
+        "sched_dep": "19:15",
+        "halt_min": 2
+      },
+      {
+        "code": "ASN",
+        "name": "Asansol Jn",
+        "seq": 7,
+        "km": 1200,
+        "sched_arr": "21:09",
+        "sched_dep": "21:10",
+        "halt_min": 1
+      },
+      {
+        "code": "DGR",
+        "name": "Durgapur",
+        "seq": 8,
+        "km": 1240,
+        "sched_arr": "21:55",
+        "sched_dep": "21:56",
+        "halt_min": 1
+      },
+      {
+        "code": "BWN",
+        "name": "Barddhaman Jn",
+        "seq": 9,
+        "km": 1320,
+        "sched_arr": "23:27",
+        "sched_dep": "23:30",
+        "halt_min": 3
+      },
+      {
+        "code": "HWH",
+        "name": "Howrah Jn",
+        "seq": 10,
+        "km": 1447,
+        "sched_arr": "01:55",
+        "sched_dep": null,
+        "halt_min": 0
+      }
+    ]
+  },
+  "12343": {
+    "name": "Darjeeling Mail",
+    "type": "Superfast",
+    "stations": [
+      {
+        "code": "HWH",
+        "name": "Howrah Jn",
+        "seq": 1,
+        "km": 0,
+        "sched_arr": null,
+        "sched_dep": "22:05",
+        "halt_min": 0
+      },
+      {
+        "code": "BWN",
+        "name": "Barddhaman Jn",
+        "seq": 2,
+        "km": 95,
+        "sched_arr": "23:31",
+        "sched_dep": "23:33",
+        "halt_min": 2
+      },
+      {
+        "code": "RPH",
+        "name": "Rampurhat",
+        "seq": 3,
+        "km": 210,
+        "sched_arr": "01:18",
+        "sched_dep": "01:21",
+        "halt_min": 3
+      },
+      {
+        "code": "MLDT",
+        "name": "Malda Town",
+        "seq": 4,
+        "km": 330,
+        "sched_arr": "03:10",
+        "sched_dep": "03:13",
+        "halt_min": 3
+      },
+      {
+        "code": "NFK",
+        "name": "New Farakka",
+        "seq": 5,
+        "km": 350,
+        "sched_arr": "03:31",
+        "sched_dep": "03:36",
+        "halt_min": 5
+      },
+      {
+        "code": "BOE",
+        "name": "Barsoi",
+        "seq": 6,
+        "km": 420,
+        "sched_arr": "04:39",
+        "sched_dep": "04:42",
+        "halt_min": 3
+      },
+      {
+        "code": "KNE",
+        "name": "Kishanganj",
+        "seq": 7,
+        "km": 480,
+        "sched_arr": "05:36",
+        "sched_dep": "05:38",
+        "halt_min": 2
+      },
+      {
+        "code": "NJP",
+        "name": "New Jalpaiguri",
+        "seq": 8,
+        "km": 565,
+        "sched_arr": "06:55",
+        "sched_dep": null,
+        "halt_min": 0
+      }
+    ]
+  },
+  "12377": {
+    "name": "Padatik Express",
+    "type": "Superfast",
+    "stations": [
+      {
+        "code": "HWH",
+        "name": "Howrah Jn",
+        "seq": 1,
+        "km": 0,
+        "sched_arr": null,
+        "sched_dep": "23:00",
+        "halt_min": 0
+      },
+      {
+        "code": "BWN",
+        "name": "Barddhaman Jn",
+        "seq": 2,
+        "km": 95,
+        "sched_arr": "00:26",
+        "sched_dep": "00:28",
+        "halt_min": 2
+      },
+      {
+        "code": "RPH",
+        "name": "Rampurhat",
+        "seq": 3,
+        "km": 210,
+        "sched_arr": "02:13",
+        "sched_dep": "02:18",
+        "halt_min": 5
+      },
+      {
+        "code": "MLDT",
+        "name": "Malda Town",
+        "seq": 4,
+        "km": 330,
+        "sched_arr": "04:07",
+        "sched_dep": "04:09",
+        "halt_min": 2
+      },
+      {
+        "code": "NFK",
+        "name": "New Farakka",
+        "seq": 5,
+        "km": 350,
+        "sched_arr": "04:27",
+        "sched_dep": "04:29",
+        "halt_min": 2
+      },
+      {
+        "code": "BOE",
+        "name": "Barsoi",
+        "seq": 6,
+        "km": 420,
+        "sched_arr": "05:32",
+        "sched_dep": "05:33",
+        "halt_min": 1
+      },
+      {
+        "code": "KNE",
+        "name": "Kishanganj",
+        "seq": 7,
+        "km": 480,
+        "sched_arr": "06:27",
+        "sched_dep": "06:32",
+        "halt_min": 5
+      },
+      {
+        "code": "NJP",
+        "name": "New Jalpaiguri",
+        "seq": 8,
+        "km": 565,
+        "sched_arr": "07:49",
+        "sched_dep": null,
+        "halt_min": 0
+      }
+    ]
+  },
+  "12459": {
+    "name": "Delhi-Amritsar Express",
+    "type": "Superfast",
+    "stations": [
+      {
+        "code": "NDLS",
+        "name": "New Delhi",
+        "seq": 1,
+        "km": 0,
+        "sched_arr": null,
+        "sched_dep": "16:30",
+        "halt_min": 0
+      },
+      {
+        "code": "PNP",
+        "name": "Panipat Jn",
+        "seq": 2,
+        "km": 90,
+        "sched_arr": "17:52",
+        "sched_dep": "17:54",
+        "halt_min": 2
+      },
+      {
+        "code": "KUN",
+        "name": "Karnal",
+        "seq": 3,
+        "km": 125,
+        "sched_arr": "18:26",
+        "sched_dep": "18:28",
+        "halt_min": 2
+      },
+      {
+        "code": "UMB",
+        "name": "Ambala Cantt",
+        "seq": 4,
+        "km": 198,
+        "sched_arr": "19:34",
+        "sched_dep": "19:36",
+        "halt_min": 2
+      },
+      {
+        "code": "LDH",
+        "name": "Ludhiana Jn",
+        "seq": 5,
+        "km": 313,
+        "sched_arr": "21:21",
+        "sched_dep": "21:24",
+        "halt_min": 3
+      },
+      {
+        "code": "JRC",
+        "name": "Jalandhar City",
+        "seq": 6,
+        "km": 372,
+        "sched_arr": "22:17",
+        "sched_dep": "22:22",
+        "halt_min": 5
+      },
+      {
+        "code": "BEAS",
+        "name": "Beas",
+        "seq": 7,
+        "km": 422,
+        "sched_arr": "23:07",
+        "sched_dep": "23:08",
+        "halt_min": 1
+      },
+      {
+        "code": "ASR",
+        "name": "Amritsar Jn",
+        "seq": 8,
+        "km": 448,
+        "sched_arr": "23:31",
+        "sched_dep": null,
+        "halt_min": 0
+      }
+    ]
+  },
+  "12559": {
+    "name": "Shiv Ganga Express",
+    "type": "Superfast",
+    "stations": [
+      {
+        "code": "BSB",
+        "name": "Varanasi Jn",
+        "seq": 1,
+        "km": 0,
+        "sched_arr": null,
+        "sched_dep": "18:45",
+        "halt_min": 0
+      },
+      {
+        "code": "GCT",
+        "name": "Ghazipur City",
+        "seq": 2,
+        "km": 78,
+        "sched_arr": "19:56",
+        "sched_dep": "19:57",
+        "halt_min": 1
+      },
+      {
+        "code": "AMH",
+        "name": "Aunrihar Jn",
+        "seq": 3,
+        "km": 110,
+        "sched_arr": "20:26",
+        "sched_dep": "20:28",
+        "halt_min": 2
+      },
+      {
+        "code": "JNU",
+        "name": "Jaunpur Jn",
+        "seq": 4,
+        "km": 160,
+        "sched_arr": "21:13",
+        "sched_dep": "21:14",
+        "halt_min": 1
+      },
+      {
+        "code": "ZBD",
+        "name": "Zafarabad Jn",
+        "seq": 5,
+        "km": 175,
+        "sched_arr": "21:27",
+        "sched_dep": "21:30",
+        "halt_min": 3
+      },
+      {
+        "code": "SLN",
+        "name": "Sultanpur Jn",
+        "seq": 6,
+        "km": 240,
+        "sched_arr": "22:29",
+        "sched_dep": "22:34",
+        "halt_min": 5
+      },
+      {
+        "code": "ON",
+        "name": "Amethi",
+        "seq": 7,
+        "km": 290,
+        "sched_arr": "23:19",
+        "sched_dep": "23:20",
+        "halt_min": 1
+      },
+      {
+        "code": "RBL",
+        "name": "Rae Bareli Jn",
+        "seq": 8,
+        "km": 330,
+        "sched_arr": "23:56",
+        "sched_dep": "23:58",
+        "halt_min": 2
+      },
+      {
+        "code": "LKO",
+        "name": "Lucknow Charbagh",
+        "seq": 9,
+        "km": 430,
+        "sched_arr": "01:29",
+        "sched_dep": null,
+        "halt_min": 0
+      }
+    ]
+  },
+  "12623": {
+    "name": "Trivandrum Mail",
+    "type": "Superfast",
+    "stations": [
+      {
+        "code": "MAS",
+        "name": "Chennai Central",
+        "seq": 1,
+        "km": 0,
+        "sched_arr": null,
+        "sched_dep": "19:45",
+        "halt_min": 0
+      },
+      {
+        "code": "SA",
+        "name": "Salem Jn",
+        "seq": 2,
+        "km": 335,
+        "sched_arr": "01:00",
+        "sched_dep": "01:05",
+        "halt_min": 5
+      },
+      {
+        "code": "ED",
+        "name": "Erode Jn",
+        "seq": 3,
+        "km": 400,
+        "sched_arr": "02:04",
+        "sched_dep": "02:06",
+        "halt_min": 2
+      },
+      {
+        "code": "CBE",
+        "name": "Coimbatore Jn",
+        "seq": 4,
+        "km": 495,
+        "sched_arr": "03:32",
+        "sched_dep": "03:33",
+        "halt_min": 1
+      },
+      {
+        "code": "PGT",
+        "name": "Palakkad Jn",
+        "seq": 5,
+        "km": 550,
+        "sched_arr": "04:23",
+        "sched_dep": "04:24",
+        "halt_min": 1
+      },
+      {
+        "code": "TCR",
+        "name": "Thrissur",
+        "seq": 6,
+        "km": 625,
+        "sched_arr": "05:32",
+        "sched_dep": "05:34",
+        "halt_min": 2
+      },
+      {
+        "code": "ERS",
+        "name": "Ernakulam Jn",
+        "seq": 7,
+        "km": 700,
+        "sched_arr": "06:42",
+        "sched_dep": "06:44",
+        "halt_min": 2
+      },
+      {
+        "code": "KTYM",
+        "name": "Kottayam",
+        "seq": 8,
+        "km": 760,
+        "sched_arr": "07:38",
+        "sched_dep": "07:39",
+        "halt_min": 1
+      },
+      {
+        "code": "KYJ",
+        "name": "Kayankulam",
+        "seq": 9,
+        "km": 820,
+        "sched_arr": "08:33",
+        "sched_dep": "08:34",
+        "halt_min": 1
+      },
+      {
+        "code": "QLN",
+        "name": "Kollam Jn",
+        "seq": 10,
+        "km": 865,
+        "sched_arr": "09:15",
+        "sched_dep": "09:16",
+        "halt_min": 1
+      },
+      {
+        "code": "TVC",
+        "name": "Trivandrum Central",
+        "seq": 11,
+        "km": 925,
+        "sched_arr": "10:10",
+        "sched_dep": null,
+        "halt_min": 0
+      }
+    ]
+  },
+  "12695": {
+    "name": "Chennai-Trivandrum SF",
+    "type": "Superfast",
+    "stations": [
+      {
+        "code": "MAS",
+        "name": "Chennai Central",
+        "seq": 1,
+        "km": 0,
+        "sched_arr": null,
+        "sched_dep": "15:20",
+        "halt_min": 0
+      },
+      {
+        "code": "SA",
+        "name": "Salem Jn",
+        "seq": 2,
+        "km": 335,
+        "sched_arr": "20:35",
+        "sched_dep": "20:37",
+        "halt_min": 2
+      },
+      {
+        "code": "ED",
+        "name": "Erode Jn",
+        "seq": 3,
+        "km": 400,
+        "sched_arr": "21:36",
+        "sched_dep": "21:37",
+        "halt_min": 1
+      },
+      {
+        "code": "CBE",
+        "name": "Coimbatore Jn",
+        "seq": 4,
+        "km": 495,
+        "sched_arr": "23:03",
+        "sched_dep": "23:04",
+        "halt_min": 1
+      },
+      {
+        "code": "PGT",
+        "name": "Palakkad Jn",
+        "seq": 5,
+        "km": 550,
+        "sched_arr": "23:54",
+        "sched_dep": "23:55",
+        "halt_min": 1
+      },
+      {
+        "code": "TCR",
+        "name": "Thrissur",
+        "seq": 6,
+        "km": 625,
+        "sched_arr": "01:03",
+        "sched_dep": "01:08",
+        "halt_min": 5
+      },
+      {
+        "code": "ERS",
+        "name": "Ernakulam Jn",
+        "seq": 7,
+        "km": 700,
+        "sched_arr": "02:16",
+        "sched_dep": "02:21",
+        "halt_min": 5
+      },
+      {
+        "code": "KTYM",
+        "name": "Kottayam",
+        "seq": 8,
+        "km": 760,
+        "sched_arr": "03:15",
+        "sched_dep": "03:20",
+        "halt_min": 5
+      },
+      {
+        "code": "KYJ",
+        "name": "Kayankulam",
+        "seq": 9,
+        "km": 820,
+        "sched_arr": "04:14",
+        "sched_dep": "04:19",
+        "halt_min": 5
+      },
+      {
+        "code": "QLN",
+        "name": "Kollam Jn",
+        "seq": 10,
+        "km": 865,
+        "sched_arr": "05:00",
+        "sched_dep": "05:05",
+        "halt_min": 5
+      },
+      {
+        "code": "TVC",
+        "name": "Trivandrum Central",
+        "seq": 11,
+        "km": 925,
+        "sched_arr": "05:59",
+        "sched_dep": null,
+        "halt_min": 0
+      }
+    ]
+  },
+  "12734": {
+    "name": "Narayanadri Express",
+    "type": "Superfast",
+    "stations": [
+      {
+        "code": "SC",
+        "name": "Secunderabad Jn",
+        "seq": 1,
+        "km": 0,
+        "sched_arr": null,
+        "sched_dep": "18:05",
+        "halt_min": 0
+      },
+      {
+        "code": "MBNR",
+        "name": "Mahbubnagar",
+        "seq": 2,
+        "km": 100,
+        "sched_arr": "19:36",
+        "sched_dep": "19:37",
+        "halt_min": 1
+      },
+      {
+        "code": "KRNT",
+        "name": "Kurnool City",
+        "seq": 3,
+        "km": 215,
+        "sched_arr": "21:22",
+        "sched_dep": "21:24",
+        "halt_min": 2
+      },
+      {
+        "code": "DHNE",
+        "name": "Dhone",
+        "seq": 4,
+        "km": 270,
+        "sched_arr": "22:14",
+        "sched_dep": "22:17",
+        "halt_min": 3
+      },
+      {
+        "code": "GTL",
+        "name": "Guntakal Jn",
+        "seq": 5,
+        "km": 320,
+        "sched_arr": "23:02",
+        "sched_dep": "23:04",
+        "halt_min": 2
+      },
+      {
+        "code": "DMM",
+        "name": "Dharmavaram",
+        "seq": 6,
+        "km": 400,
+        "sched_arr": "00:17",
+        "sched_dep": "00:18",
+        "halt_min": 1
+      },
+      {
+        "code": "KRPU",
+        "name": "Kadapa",
+        "seq": 7,
+        "km": 520,
+        "sched_arr": "02:07",
+        "sched_dep": "02:12",
+        "halt_min": 5
+      },
+      {
+        "code": "TPTY",
+        "name": "Tirupati",
+        "seq": 8,
+        "km": 660,
+        "sched_arr": "04:20",
+        "sched_dep": null,
+        "halt_min": 0
+      }
+    ]
+  },
+  "12809": {
+    "name": "Howrah Mail",
+    "type": "Superfast",
+    "stations": [
+      {
+        "code": "CSMT",
+        "name": "Mumbai CSMT",
+        "seq": 1,
+        "km": 0,
+        "sched_arr": null,
+        "sched_dep": "21:25",
+        "halt_min": 0
+      },
+      {
+        "code": "KYN",
+        "name": "Kalyan Jn",
+        "seq": 2,
+        "km": 54,
+        "sched_arr": "22:14",
+        "sched_dep": "22:19",
+        "halt_min": 5
+      },
+      {
+        "code": "IGP",
+        "name": "Igatpuri",
+        "seq": 3,
+        "km": 137,
+        "sched_arr": "23:34",
+        "sched_dep": "23:36",
+        "halt_min": 2
+      },
+      {
+        "code": "NK",
+        "name": "Nashik Road",
+        "seq": 4,
+        "km": 187,
+        "sched_arr": "00:21",
+        "sched_dep": "00:26",
+        "halt_min": 5
+      },
+      {
+        "code": "MMR",
+        "name": "Manmad Jn",
+        "seq": 5,
+        "km": 260,
+        "sched_arr": "01:32",
+        "sched_dep": "01:34",
+        "halt_min": 2
+      },
+      {
+        "code": "BSL",
+        "name": "Bhusaval Jn",
+        "seq": 6,
+        "km": 420,
+        "sched_arr": "04:01",
+        "sched_dep": "04:06",
+        "halt_min": 5
+      },
+      {
+        "code": "AK",
+        "name": "Akola Jn",
+        "seq": 7,
+        "km": 540,
+        "sched_arr": "05:55",
+        "sched_dep": "06:00",
+        "halt_min": 5
+      },
+      {
+        "code": "BD",
+        "name": "Badnera Jn",
+        "seq": 8,
+        "km": 630,
+        "sched_arr": "07:22",
+        "sched_dep": "07:25",
+        "halt_min": 3
+      },
+      {
+        "code": "WR",
+        "name": "Wardha Jn",
+        "seq": 9,
+        "km": 710,
+        "sched_arr": "08:38",
+        "sched_dep": "08:41",
+        "halt_min": 3
+      },
+      {
+        "code": "NGP",
+        "name": "Nagpur Jn",
+        "seq": 10,
+        "km": 785,
+        "sched_arr": "09:49",
+        "sched_dep": null,
+        "halt_min": 0
+      }
+    ]
+  },
+  "12817": {
+    "name": "Jharkhand SJ Express",
+    "type": "Superfast",
+    "stations": [
+      {
+        "code": "NDLS",
+        "name": "New Delhi",
+        "seq": 1,
+        "km": 0,
+        "sched_arr": null,
+        "sched_dep": "15:10",
+        "halt_min": 0
+      },
+      {
+        "code": "CNB",
+        "name": "Kanpur Central",
+        "seq": 2,
+        "km": 441,
+        "sched_arr": "22:11",
+        "sched_dep": "22:16",
+        "halt_min": 5
+      },
+      {
+        "code": "PRYJ",
+        "name": "Prayagraj Jn",
+        "seq": 3,
+        "km": 627,
+        "sched_arr": "01:07",
+        "sched_dep": "01:08",
+        "halt_min": 1
+      },
+      {
+        "code": "MGS",
+        "name": "Mughal Sarai",
+        "seq": 4,
+        "km": 780,
+        "sched_arr": "03:28",
+        "sched_dep": "03:33",
+        "halt_min": 5
+      },
+      {
+        "code": "GAYA",
+        "name": "Gaya Jn",
+        "seq": 5,
+        "km": 985,
+        "sched_arr": "06:42",
+        "sched_dep": "06:44",
+        "halt_min": 2
+      },
+      {
+        "code": "DHN",
+        "name": "Dhanbad Jn",
+        "seq": 6,
+        "km": 1100,
+        "sched_arr": "08:29",
+        "sched_dep": null,
+        "halt_min": 0
+      }
+    ]
+  },
+  "12841": {
+    "name": "Coromandel SF",
+    "type": "Superfast",
+    "stations": [
+      {
+        "code": "HWH",
+        "name": "Howrah Jn",
+        "seq": 1,
+        "km": 0,
+        "sched_arr": null,
+        "sched_dep": "14:45",
+        "halt_min": 0
+      },
+      {
+        "code": "KGP",
+        "name": "Kharagpur Jn",
+        "seq": 2,
+        "km": 116,
+        "sched_arr": "16:31",
+        "sched_dep": "16:36",
+        "halt_min": 5
+      },
+      {
+        "code": "BLS",
+        "name": "Balasore",
+        "seq": 3,
+        "km": 242,
+        "sched_arr": "18:31",
+        "sched_dep": "18:33",
+        "halt_min": 2
+      },
+      {
+        "code": "BHC",
+        "name": "Bhadrak",
+        "seq": 4,
+        "km": 312,
+        "sched_arr": "19:36",
+        "sched_dep": "19:38",
+        "halt_min": 2
+      },
+      {
+        "code": "CTC",
+        "name": "Cuttack",
+        "seq": 5,
+        "km": 437,
+        "sched_arr": "21:32",
+        "sched_dep": "21:34",
+        "halt_min": 2
+      },
+      {
+        "code": "BBS",
+        "name": "Bhubaneswar",
+        "seq": 6,
+        "km": 466,
+        "sched_arr": "22:00",
+        "sched_dep": "22:01",
+        "halt_min": 1
+      },
+      {
+        "code": "KUR",
+        "name": "Khurda Road Jn",
+        "seq": 7,
+        "km": 485,
+        "sched_arr": "22:18",
+        "sched_dep": "22:19",
+        "halt_min": 1
+      },
+      {
+        "code": "PURI",
+        "name": "Puri",
+        "seq": 8,
+        "km": 529,
+        "sched_arr": "22:59",
+        "sched_dep": null,
+        "halt_min": 0
+      }
+    ]
+  },
+  "12931": {
+    "name": "Mumbai-Ahmedabad DD",
+    "type": "Superfast",
+    "stations": [
+      {
+        "code": "CSMT",
+        "name": "Mumbai CSMT",
+        "seq": 1,
+        "km": 0,
+        "sched_arr": null,
+        "sched_dep": "05:55",
+        "halt_min": 0
+      },
+      {
+        "code": "BVI",
+        "name": "Borivali",
+        "seq": 2,
+        "km": 34,
+        "sched_arr": "06:26",
+        "sched_dep": "06:29",
+        "halt_min": 3
+      },
+      {
+        "code": "BSR",
+        "name": "Vasai Road",
+        "seq": 3,
+        "km": 60,
+        "sched_arr": "06:52",
+        "sched_dep": "06:54",
+        "halt_min": 2
+      },
+      {
+        "code": "ST",
+        "name": "Surat",
+        "seq": 4,
+        "km": 263,
+        "sched_arr": "10:01",
+        "sched_dep": "10:03",
+        "halt_min": 2
+      },
+      {
+        "code": "BH",
+        "name": "Bharuch Jn",
+        "seq": 5,
+        "km": 322,
+        "sched_arr": "10:56",
+        "sched_dep": "10:57",
+        "halt_min": 1
+      },
+      {
+        "code": "BRC",
+        "name": "Vadodara Jn",
+        "seq": 6,
+        "km": 392,
+        "sched_arr": "12:00",
+        "sched_dep": "12:02",
+        "halt_min": 2
+      },
+      {
+        "code": "AND",
+        "name": "Anand Jn",
+        "seq": 7,
+        "km": 436,
+        "sched_arr": "12:42",
+        "sched_dep": "12:45",
+        "halt_min": 3
+      },
+      {
+        "code": "ND",
+        "name": "Nadiad Jn",
+        "seq": 8,
+        "km": 454,
+        "sched_arr": "13:01",
+        "sched_dep": "13:02",
+        "halt_min": 1
+      },
+      {
+        "code": "ADI",
+        "name": "Ahmedabad Jn",
+        "seq": 9,
+        "km": 491,
+        "sched_arr": "13:35",
+        "sched_dep": null,
+        "halt_min": 0
+      }
+    ]
+  },
+  "12957": {
+    "name": "Ahmedabad-Jaipur SF",
+    "type": "Superfast",
+    "stations": [
+      {
+        "code": "ADI",
+        "name": "Ahmedabad Jn",
+        "seq": 1,
+        "km": 0,
+        "sched_arr": null,
+        "sched_dep": "21:50",
+        "halt_min": 0
+      },
+      {
+        "code": "MSH",
+        "name": "Mahesana Jn",
+        "seq": 2,
+        "km": 68,
+        "sched_arr": "22:52",
+        "sched_dep": "22:53",
+        "halt_min": 1
+      },
+      {
+        "code": "PNU",
+        "name": "Palanpur Jn",
+        "seq": 3,
+        "km": 130,
+        "sched_arr": "23:49",
+        "sched_dep": "23:54",
+        "halt_min": 5
+      },
+      {
+        "code": "ABR",
+        "name": "Abu Road",
+        "seq": 4,
+        "km": 187,
+        "sched_arr": "00:46",
+        "sched_dep": "00:49",
+        "halt_min": 3
+      },
+      {
+        "code": "FA",
+        "name": "Falna",
+        "seq": 5,
+        "km": 300,
+        "sched_arr": "02:32",
+        "sched_dep": "02:35",
+        "halt_min": 3
+      },
+      {
+        "code": "MJ",
+        "name": "Marwar Jn",
+        "seq": 6,
+        "km": 380,
+        "sched_arr": "03:48",
+        "sched_dep": "03:49",
+        "halt_min": 1
+      },
+      {
+        "code": "AII",
+        "name": "Ajmer Jn",
+        "seq": 7,
+        "km": 490,
+        "sched_arr": "05:29",
+        "sched_dep": "05:31",
+        "halt_min": 2
+      },
+      {
+        "code": "KSG",
+        "name": "Kishangarh",
+        "seq": 8,
+        "km": 515,
+        "sched_arr": "05:53",
+        "sched_dep": "05:56",
+        "halt_min": 3
+      },
+      {
+        "code": "JP",
+        "name": "Jaipur Jn",
+        "seq": 9,
+        "km": 625,
+        "sched_arr": "07:36",
+        "sched_dep": null,
+        "halt_min": 0
+      }
+    ]
+  },
+  "13147": {
+    "name": "Uttar Banga Express",
+    "type": "Express",
+    "stations": [
+      {
+        "code": "HWH",
+        "name": "Howrah Jn",
+        "seq": 1,
+        "km": 0,
+        "sched_arr": null,
+        "sched_dep": "19:35",
+        "halt_min": 0
+      },
+      {
+        "code": "BWN",
+        "name": "Barddhaman Jn",
+        "seq": 2,
+        "km": 95,
+        "sched_arr": "21:23",
+        "sched_dep": "21:25",
+        "halt_min": 2
+      },
+      {
+        "code": "RPH",
+        "name": "Rampurhat",
+        "seq": 3,
+        "km": 210,
+        "sched_arr": "23:36",
+        "sched_dep": "23:39",
+        "halt_min": 3
+      },
+      {
+        "code": "MLDT",
+        "name": "Malda Town",
+        "seq": 4,
+        "km": 330,
+        "sched_arr": "01:56",
+        "sched_dep": "01:59",
+        "halt_min": 3
+      },
+      {
+        "code": "NFK",
+        "name": "New Farakka",
+        "seq": 5,
+        "km": 350,
+        "sched_arr": "02:21",
+        "sched_dep": "02:22",
+        "halt_min": 1
+      },
+      {
+        "code": "BOE",
+        "name": "Barsoi",
+        "seq": 6,
+        "km": 420,
+        "sched_arr": "03:41",
+        "sched_dep": "03:46",
+        "halt_min": 5
+      },
+      {
+        "code": "KNE",
+        "name": "Kishanganj",
+        "seq": 7,
+        "km": 480,
+        "sched_arr": "04:54",
+        "sched_dep": "04:55",
+        "halt_min": 1
+      },
+      {
+        "code": "NJP",
+        "name": "New Jalpaiguri",
+        "seq": 8,
+        "km": 565,
+        "sched_arr": "06:31",
+        "sched_dep": null,
+        "halt_min": 0
+      }
+    ]
+  },
+  "13483": {
+    "name": "Farakka Express",
+    "type": "Express",
+    "stations": [
+      {
+        "code": "BSB",
+        "name": "Varanasi Jn",
+        "seq": 1,
+        "km": 0,
+        "sched_arr": null,
+        "sched_dep": "05:30",
+        "halt_min": 0
+      },
+      {
+        "code": "GCT",
+        "name": "Ghazipur City",
+        "seq": 2,
+        "km": 78,
+        "sched_arr": "06:58",
+        "sched_dep": "06:59",
+        "halt_min": 1
+      },
+      {
+        "code": "AMH",
+        "name": "Aunrihar Jn",
+        "seq": 3,
+        "km": 110,
+        "sched_arr": "07:35",
+        "sched_dep": "07:40",
+        "halt_min": 5
+      },
+      {
+        "code": "JNU",
+        "name": "Jaunpur Jn",
+        "seq": 4,
+        "km": 160,
+        "sched_arr": "08:36",
+        "sched_dep": "08:38",
+        "halt_min": 2
+      },
+      {
+        "code": "ZBD",
+        "name": "Zafarabad Jn",
+        "seq": 5,
+        "km": 175,
+        "sched_arr": "08:55",
+        "sched_dep": "08:58",
+        "halt_min": 3
+      },
+      {
+        "code": "SLN",
+        "name": "Sultanpur Jn",
+        "seq": 6,
+        "km": 240,
+        "sched_arr": "10:12",
+        "sched_dep": "10:14",
+        "halt_min": 2
+      },
+      {
+        "code": "ON",
+        "name": "Amethi",
+        "seq": 7,
+        "km": 290,
+        "sched_arr": "11:10",
+        "sched_dep": "11:12",
+        "halt_min": 2
+      },
+      {
+        "code": "RBL",
+        "name": "Rae Bareli Jn",
+        "seq": 8,
+        "km": 330,
+        "sched_arr": "11:57",
+        "sched_dep": "11:59",
+        "halt_min": 2
+      },
+      {
+        "code": "LKO",
+        "name": "Lucknow Charbagh",
+        "seq": 9,
+        "km": 430,
+        "sched_arr": "13:53",
+        "sched_dep": null,
+        "halt_min": 0
+      }
+    ]
+  },
+  "14265": {
+    "name": "Varanasi-Lucknow Express",
+    "type": "Express",
+    "stations": [
+      {
+        "code": "BSB",
+        "name": "Varanasi Jn",
+        "seq": 1,
+        "km": 0,
+        "sched_arr": null,
+        "sched_dep": "22:15",
+        "halt_min": 0
+      },
+      {
+        "code": "GCT",
+        "name": "Ghazipur City",
+        "seq": 2,
+        "km": 78,
+        "sched_arr": "23:43",
+        "sched_dep": "23:48",
+        "halt_min": 5
+      },
+      {
+        "code": "AMH",
+        "name": "Aunrihar Jn",
+        "seq": 3,
+        "km": 110,
+        "sched_arr": "00:24",
+        "sched_dep": "00:25",
+        "halt_min": 1
+      },
+      {
+        "code": "JNU",
+        "name": "Jaunpur Jn",
+        "seq": 4,
+        "km": 160,
+        "sched_arr": "01:21",
+        "sched_dep": "01:31",
+        "halt_min": 10
+      },
+      {
+        "code": "ZBD",
+        "name": "Zafarabad Jn",
+        "seq": 5,
+        "km": 175,
+        "sched_arr": "01:48",
+        "sched_dep": "01:50",
+        "halt_min": 2
+      },
+      {
+        "code": "SLN",
+        "name": "Sultanpur Jn",
+        "seq": 6,
+        "km": 240,
+        "sched_arr": "03:04",
+        "sched_dep": "03:07",
+        "halt_min": 3
+      },
+      {
+        "code": "ON",
+        "name": "Amethi",
+        "seq": 7,
+        "km": 290,
+        "sched_arr": "04:03",
+        "sched_dep": "04:04",
+        "halt_min": 1
+      },
+      {
+        "code": "RBL",
+        "name": "Rae Bareli Jn",
+        "seq": 8,
+        "km": 330,
+        "sched_arr": "04:49",
+        "sched_dep": "04:52",
+        "halt_min": 3
+      },
+      {
+        "code": "LKO",
+        "name": "Lucknow Charbagh",
+        "seq": 9,
+        "km": 430,
+        "sched_arr": "06:46",
+        "sched_dep": null,
+        "halt_min": 0
+      }
+    ]
+  },
+  "14673": {
+    "name": "Shaheed Express",
+    "type": "Express",
+    "stations": [
+      {
+        "code": "NDLS",
+        "name": "New Delhi",
+        "seq": 1,
+        "km": 0,
+        "sched_arr": null,
+        "sched_dep": "21:45",
+        "halt_min": 0
+      },
+      {
+        "code": "PNP",
+        "name": "Panipat Jn",
+        "seq": 2,
+        "km": 90,
+        "sched_arr": "23:27",
+        "sched_dep": "23:28",
+        "halt_min": 1
+      },
+      {
+        "code": "KUN",
+        "name": "Karnal",
+        "seq": 3,
+        "km": 125,
+        "sched_arr": "00:07",
+        "sched_dep": "00:12",
+        "halt_min": 5
+      },
+      {
+        "code": "UMB",
+        "name": "Ambala Cantt",
+        "seq": 4,
+        "km": 198,
+        "sched_arr": "01:35",
+        "sched_dep": "01:38",
+        "halt_min": 3
+      },
+      {
+        "code": "LDH",
+        "name": "Ludhiana Jn",
+        "seq": 5,
+        "km": 313,
+        "sched_arr": "03:49",
+        "sched_dep": "03:51",
+        "halt_min": 2
+      },
+      {
+        "code": "JRC",
+        "name": "Jalandhar City",
+        "seq": 6,
+        "km": 372,
+        "sched_arr": "04:58",
+        "sched_dep": "05:00",
+        "halt_min": 2
+      },
+      {
+        "code": "BEAS",
+        "name": "Beas",
+        "seq": 7,
+        "km": 422,
+        "sched_arr": "05:56",
+        "sched_dep": "05:58",
+        "halt_min": 2
+      },
+      {
+        "code": "ASR",
+        "name": "Amritsar Jn",
+        "seq": 8,
+        "km": 448,
+        "sched_arr": "06:27",
+        "sched_dep": null,
+        "halt_min": 0
+      }
+    ]
+  },
+  "16022": {
+    "name": "Kaveri Express",
+    "type": "Express",
+    "stations": [
+      {
+        "code": "MAS",
+        "name": "Chennai Central",
+        "seq": 1,
+        "km": 0,
+        "sched_arr": null,
+        "sched_dep": "21:15",
+        "halt_min": 0
+      },
+      {
+        "code": "AJJ",
+        "name": "Arakkonam Jn",
+        "seq": 2,
+        "km": 69,
+        "sched_arr": "22:33",
+        "sched_dep": "22:34",
+        "halt_min": 1
+      },
+      {
+        "code": "KPD",
+        "name": "Katpadi Jn",
+        "seq": 3,
+        "km": 129,
+        "sched_arr": "23:42",
+        "sched_dep": "23:52",
+        "halt_min": 10
+      },
+      {
+        "code": "JTJ",
+        "name": "Jolarpettai Jn",
+        "seq": 4,
+        "km": 215,
+        "sched_arr": "01:30",
+        "sched_dep": "01:31",
+        "halt_min": 1
+      },
+      {
+        "code": "SA",
+        "name": "Salem Jn",
+        "seq": 5,
+        "km": 335,
+        "sched_arr": "03:48",
+        "sched_dep": "03:50",
+        "halt_min": 2
+      },
+      {
+        "code": "BWT",
+        "name": "Bangarapet",
+        "seq": 6,
+        "km": 290,
+        "sched_arr": "03:00",
+        "sched_dep": "03:01",
+        "halt_min": 1
+      },
+      {
+        "code": "KJM",
+        "name": "Krishnarajapuram",
+        "seq": 7,
+        "km": 345,
+        "sched_arr": "04:03",
+        "sched_dep": "04:05",
+        "halt_min": 2
+      },
+      {
+        "code": "SBC",
+        "name": "KSR Bengaluru",
+        "seq": 8,
+        "km": 362,
+        "sched_arr": "04:24",
+        "sched_dep": null,
+        "halt_min": 0
+      }
+    ]
+  },
+  "16319": {
+    "name": "Kanniyakumari Express",
+    "type": "Express",
+    "stations": [
+      {
+        "code": "MAS",
+        "name": "Chennai Central",
+        "seq": 1,
+        "km": 0,
+        "sched_arr": null,
+        "sched_dep": "17:35",
+        "halt_min": 0
+      },
+      {
+        "code": "SA",
+        "name": "Salem Jn",
+        "seq": 2,
+        "km": 335,
+        "sched_arr": "00:09",
+        "sched_dep": "00:11",
+        "halt_min": 2
+      },
+      {
+        "code": "ED",
+        "name": "Erode Jn",
+        "seq": 3,
+        "km": 400,
+        "sched_arr": "01:25",
+        "sched_dep": "01:27",
+        "halt_min": 2
+      },
+      {
+        "code": "CBE",
+        "name": "Coimbatore Jn",
+        "seq": 4,
+        "km": 495,
+        "sched_arr": "03:15",
+        "sched_dep": "03:18",
+        "halt_min": 3
+      },
+      {
+        "code": "PGT",
+        "name": "Palakkad Jn",
+        "seq": 5,
+        "km": 550,
+        "sched_arr": "04:20",
+        "sched_dep": "04:30",
+        "halt_min": 10
+      },
+      {
+        "code": "TCR",
+        "name": "Thrissur",
+        "seq": 6,
+        "km": 625,
+        "sched_arr": "05:55",
+        "sched_dep": "06:05",
+        "halt_min": 10
+      },
+      {
+        "code": "ERS",
+        "name": "Ernakulam Jn",
+        "seq": 7,
+        "km": 700,
+        "sched_arr": "07:30",
+        "sched_dep": "07:33",
+        "halt_min": 3
+      },
+      {
+        "code": "KTYM",
+        "name": "Kottayam",
+        "seq": 8,
+        "km": 760,
+        "sched_arr": "08:41",
+        "sched_dep": "08:51",
+        "halt_min": 10
+      },
+      {
+        "code": "KYJ",
+        "name": "Kayankulam",
+        "seq": 9,
+        "km": 820,
+        "sched_arr": "09:59",
+        "sched_dep": "10:09",
+        "halt_min": 10
+      },
+      {
+        "code": "QLN",
+        "name": "Kollam Jn",
+        "seq": 10,
+        "km": 865,
+        "sched_arr": "11:00",
+        "sched_dep": "11:02",
+        "halt_min": 2
+      },
+      {
+        "code": "TVC",
+        "name": "Trivandrum Central",
+        "seq": 11,
+        "km": 925,
+        "sched_arr": "12:10",
+        "sched_dep": null,
+        "halt_min": 0
+      }
+    ]
+  },
+  "17201": {
+    "name": "Golkonda Express",
+    "type": "Express",
+    "stations": [
+      {
+        "code": "SC",
+        "name": "Secunderabad Jn",
+        "seq": 1,
+        "km": 0,
+        "sched_arr": null,
+        "sched_dep": "06:20",
+        "halt_min": 0
+      },
+      {
+        "code": "MBNR",
+        "name": "Mahbubnagar",
+        "seq": 2,
+        "km": 100,
+        "sched_arr": "08:14",
+        "sched_dep": "08:16",
+        "halt_min": 2
+      },
+      {
+        "code": "KRNT",
+        "name": "Kurnool City",
+        "seq": 3,
+        "km": 215,
+        "sched_arr": "10:27",
+        "sched_dep": "10:28",
+        "halt_min": 1
+      },
+      {
+        "code": "DHNE",
+        "name": "Dhone",
+        "seq": 4,
+        "km": 270,
+        "sched_arr": "11:30",
+        "sched_dep": "11:40",
+        "halt_min": 10
+      },
+      {
+        "code": "GTL",
+        "name": "Guntakal Jn",
+        "seq": 5,
+        "km": 320,
+        "sched_arr": "12:36",
+        "sched_dep": "12:38",
+        "halt_min": 2
+      },
+      {
+        "code": "DMM",
+        "name": "Dharmavaram",
+        "seq": 6,
+        "km": 400,
+        "sched_arr": "14:09",
+        "sched_dep": "14:12",
+        "halt_min": 3
+      },
+      {
+        "code": "KRPU",
+        "name": "Kadapa",
+        "seq": 7,
+        "km": 520,
+        "sched_arr": "16:29",
+        "sched_dep": "16:31",
+        "halt_min": 2
+      },
+      {
+        "code": "TPTY",
+        "name": "Tirupati",
+        "seq": 8,
+        "km": 660,
+        "sched_arr": "19:11",
+        "sched_dep": null,
+        "halt_min": 0
+      }
+    ]
+  },
+  "18047": {
+    "name": "Amaravati Express",
+    "type": "Express",
+    "stations": [
+      {
+        "code": "HWH",
+        "name": "Howrah Jn",
+        "seq": 1,
+        "km": 0,
+        "sched_arr": null,
+        "sched_dep": "06:15",
+        "halt_min": 0
+      },
+      {
+        "code": "KGP",
+        "name": "Kharagpur Jn",
+        "seq": 2,
+        "km": 116,
+        "sched_arr": "08:27",
+        "sched_dep": "08:32",
+        "halt_min": 5
+      },
+      {
+        "code": "BLS",
+        "name": "Balasore",
+        "seq": 3,
+        "km": 242,
+        "sched_arr": "10:56",
+        "sched_dep": "11:06",
+        "halt_min": 10
+      },
+      {
+        "code": "BHC",
+        "name": "Bhadrak",
+        "seq": 4,
+        "km": 312,
+        "sched_arr": "12:25",
+        "sched_dep": "12:35",
+        "halt_min": 10
+      },
+      {
+        "code": "CTC",
+        "name": "Cuttack",
+        "seq": 5,
+        "km": 437,
+        "sched_arr": "14:58",
+        "sched_dep": "15:00",
+        "halt_min": 2
+      },
+      {
+        "code": "BBS",
+        "name": "Bhubaneswar",
+        "seq": 6,
+        "km": 466,
+        "sched_arr": "15:33",
+        "sched_dep": "15:43",
+        "halt_min": 10
+      },
+      {
+        "code": "KUR",
+        "name": "Khurda Road Jn",
+        "seq": 7,
+        "km": 485,
+        "sched_arr": "16:04",
+        "sched_dep": "16:14",
+        "halt_min": 10
+      },
+      {
+        "code": "PURI",
+        "name": "Puri",
+        "seq": 8,
+        "km": 529,
+        "sched_arr": "17:04",
+        "sched_dep": null,
+        "halt_min": 0
+      }
+    ]
+  },
+  "19011": {
+    "name": "Gujarat Express",
+    "type": "Express",
+    "stations": [
+      {
+        "code": "CSMT",
+        "name": "Mumbai CSMT",
+        "seq": 1,
+        "km": 0,
+        "sched_arr": null,
+        "sched_dep": "05:45",
+        "halt_min": 0
+      },
+      {
+        "code": "BVI",
+        "name": "Borivali",
+        "seq": 2,
+        "km": 34,
+        "sched_arr": "06:23",
+        "sched_dep": "06:33",
+        "halt_min": 10
+      },
+      {
+        "code": "BSR",
+        "name": "Vasai Road",
+        "seq": 3,
+        "km": 60,
+        "sched_arr": "07:02",
+        "sched_dep": "07:12",
+        "halt_min": 10
+      },
+      {
+        "code": "ST",
+        "name": "Surat",
+        "seq": 4,
+        "km": 263,
+        "sched_arr": "11:06",
+        "sched_dep": "11:09",
+        "halt_min": 3
+      },
+      {
+        "code": "BH",
+        "name": "Bharuch Jn",
+        "seq": 5,
+        "km": 322,
+        "sched_arr": "12:16",
+        "sched_dep": "12:18",
+        "halt_min": 2
+      },
+      {
+        "code": "BRC",
+        "name": "Vadodara Jn",
+        "seq": 6,
+        "km": 392,
+        "sched_arr": "13:37",
+        "sched_dep": "13:47",
+        "halt_min": 10
+      },
+      {
+        "code": "AND",
+        "name": "Anand Jn",
+        "seq": 7,
+        "km": 436,
+        "sched_arr": "14:37",
+        "sched_dep": "14:38",
+        "halt_min": 1
+      },
+      {
+        "code": "ND",
+        "name": "Nadiad Jn",
+        "seq": 8,
+        "km": 454,
+        "sched_arr": "14:58",
+        "sched_dep": null,
+        "halt_min": 0
+      }
+    ]
+  },
+  "19707": {
+    "name": "Aravali Express",
+    "type": "Express",
+    "stations": [
+      {
+        "code": "ADI",
+        "name": "Ahmedabad Jn",
+        "seq": 1,
+        "km": 0,
+        "sched_arr": null,
+        "sched_dep": "08:15",
+        "halt_min": 0
+      },
+      {
+        "code": "MSH",
+        "name": "Mahesana Jn",
+        "seq": 2,
+        "km": 68,
+        "sched_arr": "09:32",
+        "sched_dep": "09:42",
+        "halt_min": 10
+      },
+      {
+        "code": "PNU",
+        "name": "Palanpur Jn",
+        "seq": 3,
+        "km": 130,
+        "sched_arr": "10:52",
+        "sched_dep": "10:53",
+        "halt_min": 1
+      },
+      {
+        "code": "ABR",
+        "name": "Abu Road",
+        "seq": 4,
+        "km": 187,
+        "sched_arr": "11:57",
+        "sched_dep": "12:07",
+        "halt_min": 10
+      },
+      {
+        "code": "FA",
+        "name": "Falna",
+        "seq": 5,
+        "km": 300,
+        "sched_arr": "14:16",
+        "sched_dep": "14:26",
+        "halt_min": 10
+      },
+      {
+        "code": "MJ",
+        "name": "Marwar Jn",
+        "seq": 6,
+        "km": 380,
+        "sched_arr": "15:57",
+        "sched_dep": "15:59",
+        "halt_min": 2
+      },
+      {
+        "code": "AII",
+        "name": "Ajmer Jn",
+        "seq": 7,
+        "km": 490,
+        "sched_arr": "18:04",
+        "sched_dep": "18:06",
+        "halt_min": 2
+      },
+      {
+        "code": "KSG",
+        "name": "Kishangarh",
+        "seq": 8,
+        "km": 515,
+        "sched_arr": "18:34",
+        "sched_dep": "18:39",
+        "halt_min": 5
+      },
+      {
+        "code": "JP",
+        "name": "Jaipur Jn",
+        "seq": 9,
+        "km": 625,
+        "sched_arr": "20:44",
+        "sched_dep": null,
+        "halt_min": 0
+      }
+    ]
+  },
+  "22201": {
+    "name": "Puri Duronto",
+    "type": "Rajdhani",
+    "stations": [
+      {
+        "code": "HWH",
+        "name": "Howrah Jn",
+        "seq": 1,
+        "km": 0,
+        "sched_arr": null,
+        "sched_dep": "22:35",
+        "halt_min": 0
+      },
+      {
+        "code": "KGP",
+        "name": "Kharagpur Jn",
+        "seq": 2,
+        "km": 116,
+        "sched_arr": "00:03",
+        "sched_dep": "00:08",
+        "halt_min": 5
+      },
+      {
+        "code": "BLS",
+        "name": "Balasore",
+        "seq": 3,
+        "km": 242,
+        "sched_arr": "01:44",
+        "sched_dep": "01:47",
+        "halt_min": 3
+      },
+      {
+        "code": "BHC",
+        "name": "Bhadrak",
+        "seq": 4,
+        "km": 312,
+        "sched_arr": "02:40",
+        "sched_dep": "02:45",
+        "halt_min": 5
+      },
+      {
+        "code": "CTC",
+        "name": "Cuttack",
+        "seq": 5,
+        "km": 437,
+        "sched_arr": "04:20",
+        "sched_dep": "04:25",
+        "halt_min": 5
+      },
+      {
+        "code": "BBS",
+        "name": "Bhubaneswar",
+        "seq": 6,
+        "km": 466,
+        "sched_arr": "04:47",
+        "sched_dep": "04:50",
+        "halt_min": 3
+      },
+      {
+        "code": "KUR",
+        "name": "Khurda Road Jn",
+        "seq": 7,
+        "km": 485,
+        "sched_arr": "05:04",
+        "sched_dep": "05:07",
+        "halt_min": 3
+      },
+      {
+        "code": "PURI",
+        "name": "Puri",
+        "seq": 8,
+        "km": 529,
+        "sched_arr": "05:40",
+        "sched_dep": null,
+        "halt_min": 0
+      }
+    ]
+  },
+  "22625": {
+    "name": "Chennai-Bengaluru AC DD",
+    "type": "Superfast",
+    "stations": [
+      {
+        "code": "MAS",
+        "name": "Chennai Central",
+        "seq": 1,
+        "km": 0,
+        "sched_arr": null,
+        "sched_dep": "07:15",
+        "halt_min": 0
+      },
+      {
+        "code": "AJJ",
+        "name": "Arakkonam Jn",
+        "seq": 2,
+        "km": 69,
+        "sched_arr": "08:17",
+        "sched_dep": "08:22",
+        "halt_min": 5
+      },
+      {
+        "code": "KPD",
+        "name": "Katpadi Jn",
+        "seq": 3,
+        "km": 129,
+        "sched_arr": "09:16",
+        "sched_dep": "09:17",
+        "halt_min": 1
+      },
+      {
+        "code": "JTJ",
+        "name": "Jolarpettai Jn",
+        "seq": 4,
+        "km": 215,
+        "sched_arr": "10:35",
+        "sched_dep": "10:37",
+        "halt_min": 2
+      },
+      {
+        "code": "SA",
+        "name": "Salem Jn",
+        "seq": 5,
+        "km": 335,
+        "sched_arr": "12:26",
+        "sched_dep": "12:28",
+        "halt_min": 2
+      },
+      {
+        "code": "BWT",
+        "name": "Bangarapet",
+        "seq": 6,
+        "km": 290,
+        "sched_arr": "11:48",
+        "sched_dep": "11:50",
+        "halt_min": 2
+      },
+      {
+        "code": "KJM",
+        "name": "Krishnarajapuram",
+        "seq": 7,
+        "km": 345,
+        "sched_arr": "12:40",
+        "sched_dep": "12:45",
+        "halt_min": 5
+      },
+      {
+        "code": "SBC",
+        "name": "KSR Bengaluru",
+        "seq": 8,
+        "km": 362,
+        "sched_arr": "13:00",
+        "sched_dep": null,
+        "halt_min": 0
+      }
+    ]
+  },
+  "22641": {
+    "name": "Chennai-Ernakulam SF",
+    "type": "Superfast",
+    "stations": [
+      {
+        "code": "MAS",
+        "name": "Chennai Central",
+        "seq": 1,
+        "km": 0,
+        "sched_arr": null,
+        "sched_dep": "13:00",
+        "halt_min": 0
+      },
+      {
+        "code": "SA",
+        "name": "Salem Jn",
+        "seq": 2,
+        "km": 335,
+        "sched_arr": "18:15",
+        "sched_dep": "18:17",
+        "halt_min": 2
+      },
+      {
+        "code": "ED",
+        "name": "Erode Jn",
+        "seq": 3,
+        "km": 400,
+        "sched_arr": "19:16",
+        "sched_dep": "19:21",
+        "halt_min": 5
+      },
+      {
+        "code": "CBE",
+        "name": "Coimbatore Jn",
+        "seq": 4,
+        "km": 495,
+        "sched_arr": "20:47",
+        "sched_dep": "20:48",
+        "halt_min": 1
+      },
+      {
+        "code": "PGT",
+        "name": "Palakkad Jn",
+        "seq": 5,
+        "km": 550,
+        "sched_arr": "21:38",
+        "sched_dep": "21:40",
+        "halt_min": 2
+      },
+      {
+        "code": "TCR",
+        "name": "Thrissur",
+        "seq": 6,
+        "km": 625,
+        "sched_arr": "22:48",
+        "sched_dep": "22:50",
+        "halt_min": 2
+      },
+      {
+        "code": "ERS",
+        "name": "Ernakulam Jn",
+        "seq": 7,
+        "km": 700,
+        "sched_arr": "23:58",
+        "sched_dep": null,
+        "halt_min": 0
+      }
+    ]
+  },
+  "51402": {
+    "name": "Nagpur Passenger",
+    "type": "Passenger",
+    "stations": [
+      {
+        "code": "CSMT",
+        "name": "Mumbai CSMT",
+        "seq": 1,
+        "km": 0,
+        "sched_arr": null,
+        "sched_dep": "11:10",
+        "halt_min": 0
+      },
+      {
+        "code": "KYN",
+        "name": "Kalyan Jn",
+        "seq": 2,
+        "km": 54,
+        "sched_arr": "12:39",
+        "sched_dep": "12:41",
+        "halt_min": 2
+      },
+      {
+        "code": "IGP",
+        "name": "Igatpuri",
+        "seq": 3,
+        "km": 137,
+        "sched_arr": "14:59",
+        "sched_dep": "15:01",
+        "halt_min": 2
+      },
+      {
+        "code": "NK",
+        "name": "Nashik Road",
+        "seq": 4,
+        "km": 187,
+        "sched_arr": "16:24",
+        "sched_dep": "16:26",
+        "halt_min": 2
+      },
+      {
+        "code": "MMR",
+        "name": "Manmad Jn",
+        "seq": 5,
+        "km": 260,
+        "sched_arr": "18:27",
+        "sched_dep": "18:30",
+        "halt_min": 3
+      },
+      {
+        "code": "BSL",
+        "name": "Bhusaval Jn",
+        "seq": 6,
+        "km": 420,
+        "sched_arr": "22:59",
+        "sched_dep": "23:00",
+        "halt_min": 1
+      },
+      {
+        "code": "AK",
+        "name": "Akola Jn",
+        "seq": 7,
+        "km": 540,
+        "sched_arr": "02:21",
+        "sched_dep": "02:24",
+        "halt_min": 3
+      },
+      {
+        "code": "BD",
+        "name": "Badnera Jn",
+        "seq": 8,
+        "km": 630,
+        "sched_arr": "04:54",
+        "sched_dep": "04:55",
+        "halt_min": 1
+      },
+      {
+        "code": "WR",
+        "name": "Wardha Jn",
+        "seq": 9,
+        "km": 710,
+        "sched_arr": "07:08",
+        "sched_dep": "07:10",
+        "halt_min": 2
+      },
+      {
+        "code": "NGP",
+        "name": "Nagpur Jn",
+        "seq": 10,
+        "km": 785,
+        "sched_arr": "09:15",
+        "sched_dep": null,
+        "halt_min": 0
+      }
+    ]
+  },
+  "54331": {
+    "name": "Varanasi Passenger",
+    "type": "Passenger",
+    "stations": [
+      {
+        "code": "BSB",
+        "name": "Varanasi Jn",
+        "seq": 1,
+        "km": 0,
+        "sched_arr": null,
+        "sched_dep": "11:10",
+        "halt_min": 0
+      },
+      {
+        "code": "GCT",
+        "name": "Ghazipur City",
+        "seq": 2,
+        "km": 78,
+        "sched_arr": "13:20",
+        "sched_dep": "13:23",
+        "halt_min": 3
+      },
+      {
+        "code": "AMH",
+        "name": "Aunrihar Jn",
+        "seq": 3,
+        "km": 110,
+        "sched_arr": "14:16",
+        "sched_dep": "14:17",
+        "halt_min": 1
+      },
+      {
+        "code": "JNU",
+        "name": "Jaunpur Jn",
+        "seq": 4,
+        "km": 160,
+        "sched_arr": "15:40",
+        "sched_dep": "15:42",
+        "halt_min": 2
+      },
+      {
+        "code": "ZBD",
+        "name": "Zafarabad Jn",
+        "seq": 5,
+        "km": 175,
+        "sched_arr": "16:07",
+        "sched_dep": "16:09",
+        "halt_min": 2
+      },
+      {
+        "code": "SLN",
+        "name": "Sultanpur Jn",
+        "seq": 6,
+        "km": 240,
+        "sched_arr": "17:57",
+        "sched_dep": null,
+        "halt_min": 0
+      }
+    ]
+  },
+  "59601": {
+    "name": "Ajmer Passenger",
+    "type": "Passenger",
+    "stations": [
+      {
+        "code": "ADI",
+        "name": "Ahmedabad Jn",
+        "seq": 1,
+        "km": 0,
+        "sched_arr": null,
+        "sched_dep": "10:40",
+        "halt_min": 0
+      },
+      {
+        "code": "MSH",
+        "name": "Mahesana Jn",
+        "seq": 2,
+        "km": 68,
+        "sched_arr": "12:33",
+        "sched_dep": "12:36",
+        "halt_min": 3
+      },
+      {
+        "code": "PNU",
+        "name": "Palanpur Jn",
+        "seq": 3,
+        "km": 130,
+        "sched_arr": "14:19",
+        "sched_dep": "14:20",
+        "halt_min": 1
+      },
+      {
+        "code": "ABR",
+        "name": "Abu Road",
+        "seq": 4,
+        "km": 187,
+        "sched_arr": "15:54",
+        "sched_dep": "15:56",
+        "halt_min": 2
+      },
+      {
+        "code": "FA",
+        "name": "Falna",
+        "seq": 5,
+        "km": 300,
+        "sched_arr": "19:05",
+        "sched_dep": "19:07",
+        "halt_min": 2
+      },
+      {
+        "code": "MJ",
+        "name": "Marwar Jn",
+        "seq": 6,
+        "km": 380,
+        "sched_arr": "21:20",
+        "sched_dep": "21:21",
+        "halt_min": 1
+      },
+      {
+        "code": "AII",
+        "name": "Ajmer Jn",
+        "seq": 7,
+        "km": 490,
+        "sched_arr": "00:25",
+        "sched_dep": null,
+        "halt_min": 0
+      }
+    ]
+  }
+}

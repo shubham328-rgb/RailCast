@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RailCast — dynamic ETA forecasting for Indian Railways</title>
+  <meta name="description" content="Dynamic Expected Time of Arrival forecasting for Indian Railways coaching trains using in-browser multiple linear regression. SIH26028.">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/theme.css">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+  <!-- boot / loading state -->
+  <div id="boot" class="loading">
+    <div class="spin-wrap"><div class="spinner" role="status" aria-label="Loading model"></div></div>
+    <div style="font-size:var(--t-lg);font-weight:600;color:var(--ink)">Loading the model fitted offline in Python…</div>
+    <div style="color:var(--ink-faint);font-size:var(--t-sm)">no server · no libraries · scikit-learn coefficients, browser inference</div>
+  </div>
+
+  <!-- app -->
+  <div id="app" class="app" style="display:none">
+    <header class="topbar">
+      <div class="brand">
+        <svg class="mark" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect x="1.5" y="1.5" width="29" height="29" rx="8" fill="url(#rcg)" stroke="rgba(255,255,255,0.18)"/>
+          <path d="M7 22 C 14 22, 12 11, 19 11 L 25 11" stroke="#fff" stroke-width="2.2" stroke-linecap="round" opacity="0.92"/>
+          <circle cx="7" cy="22" r="3" fill="#fff"/>
+          <circle cx="25" cy="11" r="3.4" fill="#0b0f16" stroke="#fff" stroke-width="2"/>
+          <defs><linearGradient id="rcg" x1="0" y1="0" x2="1" y2="1">
+            <stop stop-color="#5aa2ff"/><stop offset="1" stop-color="#38e0d8"/>
+          </linearGradient></defs>
+        </svg>
+        <span class="brand-txt">
+          <span class="logo"><span class="rail">Rail</span>Cast</span>
+          <span class="tag">Dynamic ETA · Indian Railways · SIH26028</span>
+        </span>
+      </div>
+      <div class="spacer"></div>
+      <span class="status-pill"><span class="dot"></span><span id="fit-status">fitting…</span></span>
+    </header>
+
+    <nav class="nav" role="tablist" aria-label="Views">
+      <button data-view="admin" role="tab" aria-selected="true">Admin Console</button>
+      <button data-view="timeline" role="tab" aria-selected="false">Live Timeline</button>
+      <button data-view="compare" role="tab" aria-selected="false">Baseline Comparison</button>
+      <button data-view="coefficients" role="tab" aria-selected="false">Coefficients</button>
+      <button data-view="diagnostics" role="tab" aria-selected="false">Diagnostics</button>
+    </nav>
+
+    <main>
+      <section id="view-admin" class="view active" role="tabpanel" aria-label="Admin Console"></section>
+      <section id="view-timeline" class="view" role="tabpanel" aria-label="Live Timeline"></section>
+      <section id="view-compare" class="view" role="tabpanel" aria-label="Baseline Comparison"></section>
+      <section id="view-coefficients" class="view" role="tabpanel" aria-label="Coefficients"></section>
+      <section id="view-diagnostics" class="view" role="tabpanel" aria-label="Diagnostics"></section>
+    </main>
+  </div>
+
+  <!-- database config (public anon key; safe to commit) -->
+  <script src="js/config.js"></script>
+
+  <!-- embedded data + model exports: work offline from file://, AND act as the
+       fallback if the database is unreachable. When Supabase is configured the
+       db layer overwrites these at boot. -->
+  <script src="data/trains.js"></script>
+  <script src="data/live.js"></script>
+  <script src="data/model.js"></script>     <!-- RC.model  — coefficients, scaler, PI params (from ml/train.ipynb) -->
+  <script src="data/metrics.js"></script>   <!-- RC.metrics — all displayed numbers (from ml/train.ipynb) -->
+
+  <!-- inference + feature building (no fitting, no statistics) -->
+  <script src="js/features.js"></script>
+  <script src="js/model.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/db.js"></script>          <!-- Supabase REST data layer (graceful fallback) -->
+  <script src="js/charts.js"></script>
+
+  <!-- views -->
+  <script src="js/ui/admin.js"></script>
+  <script src="js/ui/timeline.js"></script>
+  <script src="js/ui/compare.js"></script>
+  <script src="js/ui/coefficients.js"></script>
+  <script src="js/ui/diagnostics.js"></script>
+
+  <!-- bootstrap (last) -->
+  <script src="js/main.js"></script>
+</body>
+</html>

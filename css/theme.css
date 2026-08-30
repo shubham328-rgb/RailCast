@@ -1,0 +1,67 @@
+/* ============================================================================
+ * theme.css — design tokens. Every colour, space and type step lives here as a
+ * CSS custom property so the whole UI re-skins from one place.
+ * Dark, high-contrast operations aesthetic with an accent-lit depth.
+ * ========================================================================== */
+:root {
+  /* surfaces — deep, layered */
+  --bg:            #080b11;
+  --bg-2:          #0b0f16;
+  --surface:       #10151d;
+  --surface-2:     #161c26;
+  --surface-3:     #202836;
+  --surface-hi:    #263041;
+  --border:        rgba(255,255,255,0.075);
+  --border-strong: rgba(255,255,255,0.14);
+  --grid:          rgba(255,255,255,0.055);
+
+  /* ink */
+  --ink:           #eef2f8;
+  --ink-muted:     #9aa7ba;
+  --ink-faint:     #616d80;
+
+  /* model vs baseline — one accent for the MODEL, a muted tone for BASELINE */
+  --accent:        #5aa2ff;   /* model predictions */
+  --accent-2:      #38e0d8;   /* secondary highlight */
+  --accent-ink:    #bcd8ff;   /* text-on-dark accent */
+  --accent-soft:   rgba(90,162,255,0.14);
+  --accent-band:   rgba(90,162,255,0.16);   /* prediction interval fill */
+  --accent-glow:   rgba(90,162,255,0.45);
+  --baseline:      #828da0;   /* static-schedule baseline (muted) */
+
+  /* three-step delay severity ramp */
+  --sev-1:         #34d399;   /* on time / minor  (<10 min) */
+  --sev-2:         #fbbf24;   /* moderate         (10-30) */
+  --sev-3:         #fb7185;   /* severe           (>30) */
+  --sev-1-soft:    rgba(52,211,153,0.14);
+  --sev-2-soft:    rgba(251,191,36,0.14);
+  --sev-3-soft:    rgba(251,113,133,0.14);
+  --sev-1-glow:    rgba(52,211,153,0.5);
+  --sev-2-glow:    rgba(251,191,36,0.5);
+  --sev-3-glow:    rgba(251,113,133,0.5);
+
+  --ok:            #34d399;
+  --warn:          #fbbf24;
+  --bad:           #fb7185;
+
+  /* spacing scale */
+  --s-1: 4px; --s-2: 8px; --s-3: 12px; --s-4: 16px; --s-5: 24px; --s-6: 32px; --s-7: 48px;
+
+  /* radius */
+  --r-1: 5px; --r-2: 9px; --r-3: 14px; --r-4: 20px;
+
+  /* type scale */
+  --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  --t-xs: 11px; --t-sm: 12px; --t-md: 13px; --t-base: 14px; --t-lg: 16px;
+  --t-xl: 20px; --t-2xl: 27px; --t-3xl: 40px;
+
+  /* elevation & glow */
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.4);
+  --shadow:    0 10px 30px -12px rgba(0,0,0,0.6);
+  --shadow-lg: 0 24px 60px -20px rgba(0,0,0,0.7);
+  --glow:      0 0 0 1px var(--accent-soft), 0 8px 28px -8px var(--accent-glow);
+
+  --dur: 150ms;
+  --ease: cubic-bezier(0.4, 0, 0.2, 1);
+}

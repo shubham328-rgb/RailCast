@@ -1,0 +1,24 @@
+# ============================================================================
+# RailCast — Netlify configuration
+# ----------------------------------------------------------------------------
+# RailCast is a fully static site (no build step): the model is fitted offline
+# in Python and the browser only runs vanilla JS. So there is no build command;
+# Netlify just serves this folder as-is.
+# ============================================================================
+[build]
+  publish  = "."
+  command  = ""          # static site — nothing to build
+
+# sensible default security headers
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options        = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy        = "strict-origin-when-cross-origin"
+
+# long-cache the immutable data/model exports (they change only on a redeploy)
+[[headers]]
+  for = "/data/*"
+  [headers.values]
+    Cache-Control = "public, max-age=86400"
