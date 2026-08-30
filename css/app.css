@@ -1,6 +1,7 @@
 /* ============================================================================
  * app.css — layout & components. Real CSS (Grid/Flexbox), no framework.
  * ========================================================================== */
+html, body { overflow-x: hidden; max-width: 100%; }
 body {
   background: var(--bg);
   color: var(--ink);
@@ -35,7 +36,7 @@ body::before {
   -webkit-backdrop-filter: saturate(140%) blur(12px);
   position: sticky; top: 0; z-index: 20;
 }
-.brand { display: flex; align-items: center; gap: var(--s-3); }
+.brand { display: flex; align-items: center; gap: var(--s-3); min-width: 0; }
 .brand .mark { width: 30px; height: 30px; flex: none; filter: drop-shadow(0 2px 6px var(--accent-glow)); }
 .brand .brand-txt { display: flex; flex-direction: column; line-height: 1.05; }
 .brand .logo { font-weight: 750; font-size: var(--t-xl); letter-spacing: -0.03em; }
@@ -47,7 +48,10 @@ body::before {
   font-size: var(--t-sm); color: var(--ink-muted);
   background: var(--surface-2); border: 1px solid var(--border);
   padding: 6px var(--s-3); border-radius: 999px; box-shadow: var(--shadow-sm);
+  min-width: 0; flex: 0 1 auto;
 }
+.status-pill .dot { flex: none; }
+.status-pill #fit-status { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
 .status-pill .dot { position: relative; width: 8px; height: 8px; border-radius: 50%; background: var(--ok); box-shadow: 0 0 0 0 var(--sev-1-glow); animation: pulse 2.4s ease-out infinite; }
 @keyframes pulse { 0% { box-shadow: 0 0 0 0 var(--sev-1-glow); } 70% { box-shadow: 0 0 0 6px rgba(52,211,153,0); } 100% { box-shadow: 0 0 0 0 rgba(52,211,153,0); } }
 
@@ -85,6 +89,7 @@ main { flex: 1; padding: var(--s-6) var(--s-5); max-width: 1300px; width: 100%; 
 .card .sub { color: var(--ink-faint); font-size: var(--t-sm); margin-bottom: var(--s-4); line-height: 1.55; }
 .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: var(--s-4); }
 .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--s-4); }
+.grid-2 > *, .grid-3 > *, .journey > *, .stat-row > * { min-width: 0; }
 
 /* ---- stat tiles ---- */
 .stat-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: var(--s-3); }
@@ -167,6 +172,7 @@ main { flex: 1; padding: var(--s-6) var(--s-5); max-width: 1300px; width: 100%; 
 .delay-entry button:hover { background: var(--surface-3); border-color: var(--accent); color: var(--accent-ink); }
 .delay-entry button:active { transform: scale(0.94); }
 .delay-entry input {
+  width: 100%; min-width: 0;
   text-align: center; font-size: var(--t-3xl); font-weight: 750; font-variant-numeric: tabular-nums;
   background: radial-gradient(120% 120% at 50% 0%, var(--surface-3), var(--surface-2));
   border: 1px solid var(--border-strong); border-radius: var(--r-2); color: var(--ink); padding: var(--s-2);
@@ -246,6 +252,15 @@ figcaption { color: var(--ink-faint); font-size: var(--t-xs); margin-top: var(--
 @media (max-width: 560px) {
   .view-head h2 { font-size: var(--t-xl); }
   .stat .v { font-size: var(--t-xl); }
+  .topbar { padding: var(--s-3) var(--s-4); gap: var(--s-3); flex-wrap: wrap; }
+  .status-pill { max-width: 100%; }
+  .brand .tag { display: none; }
+  .nav { padding: 0 var(--s-4); }
+  .nav button { padding: var(--s-3) var(--s-3); font-size: var(--t-sm); }
+  main { padding: var(--s-3); }
+  .delay-entry { grid-template-columns: 40px 1fr 40px; }
+  .delay-entry input { font-size: var(--t-2xl); }
+  .stop { grid-template-columns: 1fr; gap: var(--s-2); }
 }
 @media (prefers-reduced-motion: reduce) {
   * { animation-duration: 0.001ms !important; animation-iteration-count: 1 !important; transition-duration: 0.001ms !important; }
